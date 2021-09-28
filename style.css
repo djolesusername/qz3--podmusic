@@ -120,12 +120,7 @@ padding-left: 1.5rem;
     max-width: 60vw;
 }
 
-.background-bottom{
-    position: absolute;
-    right:0%;
-    bottom: 20%;
-transform: translateY(50%);
-}
+
 
 .logo {
    bottom: 75%;
@@ -133,6 +128,8 @@ transform: translateY(50%);
    left: 20%;
    z-index: 4;
 }
+
+
 
 
 @media only screen and (min-width: 1200px) and (max-height: 650px) {
@@ -147,6 +144,14 @@ bottom: 80%;    }
  @media only screen and (min-width: 1200px) and (max-height: 490px) {
             .logo {
         bottom: 98%;    }
+            }
+
+   .background-bottom{
+     position: absolute;
+     right:0%;
+      bottom: 20%;
+      transform: translateY(50%);
+      z-index: 20;
             }
 
 @media only screen and (max-width: 1200px) {
