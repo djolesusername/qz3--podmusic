@@ -3,7 +3,7 @@ const $error = document.getElementById('error-message')
 
 function toggleVisibility  ($input)  {
 $input.preventDefault();  
-if (!$input.originalTarget.value) {
+if (!$input.originalTarget?.value) {
   $error.innerHTML = "Oops! Please add your email"
 }
 else {
